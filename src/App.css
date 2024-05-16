@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(242, 112, 156),
+    rgb(255, 148, 114)
+  );
+}
+.red {
+  text-align: left;
+}
+.search {
+  display: flex;
+  gap: 5px;
+}
+.click {
+  height: 40px;
+}
+.box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
